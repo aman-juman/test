@@ -1,0 +1,53 @@
+
+.main-slider {
+
+    width:100%;
+    display:block;
+    margin:0 auto;
+}
+.item-slider {
+
+}
+
+.entry-content  .performance-slider,
+.entry-content  .performance-slider-nav {
+    margin: 0
+}
+.entry-content  .performance-slider-nav .slick-slide,
+.entry-content  .performance-slider .slick-slide {
+    padding: 0 10px
+}
+
+.entry-content  .performance-slider {
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 350px;
+}
+.entry-content  .performance-slider-nav {
+
+    overflow: hidden;
+    height: 50px;
+}
+.entry-content  .performance-slider-nav .video {
+    position: relative
+}
+
+.entry-content  .performance-slider-nav .video a:after {
+    content: "";
+    background: url(../images/sprite.png);
+    background-position: -104px -74px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    cursor: pointer
+}
+
+.entry-content  .performance-slider-nav .slick-slide img:hover {
+    cursor: pointer
+}
